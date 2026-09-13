@@ -17,7 +17,7 @@ def contact():
     return "welcome to contact page"
 #entry point of the application
 if __name__ == '__main__':
-    app.run(debug=True)    
+    app.run(debug=True)
     '''just because of debug=True,
-      the server will reload itself on code changes and show 
-      a debugger in case an exception happens.'''
+the server will reload itself on code changes and show
+a debugger in case an exception happens.'''
